@@ -4,5 +4,5 @@
 ### Технологии:
 - HTML
 - CSS
-- Normaliza
+- Normalize
 - JavaScript
