@@ -16,12 +16,10 @@ $(document).ready(function () {
     $(".counter").text(currentFloor); // записываем в счетчик справа
   });
 
-  flatsPath.on("mouseover", function () {
-    // flatsPath.removeClass("current-flat");
+/*  flatsPath.on("mouseover", function () {
     currentFlat = $(this).attr("data-flat");
     console.log(currentFlat);
-    // $(".flat-item").toggleClass("active");
-  });
+  });*/
 
   floorPath.on("click", toggleModal); // при клике на этаж откарывается модальное окно
 
